@@ -1,0 +1,47 @@
+.todoList-container{
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left:500px;
+  width: 500px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.input-checkbox {
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.todoText {
+  flex-grow: 1;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.todo-edit-btn,
+.todo-del-btn {
+  padding: 5px 10px;
+  margin-left: 5px;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.todo-edit-btn {
+  background-color: #007bff;
+}
+
+.todo-edit-btn:hover {
+  background-color: #0056b3;
+}
+.todo-del-btn {
+  background-color: #dc3545;
+}
+
+.todo-del-btn:hover {
+  background-color: #c82333;
+}
